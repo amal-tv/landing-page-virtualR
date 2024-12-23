@@ -4,8 +4,8 @@ import { useState } from 'react'
 import './App.css'
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
-import { Feather } from 'lucide-react'
 import { Feature } from './components/Feature'
+import { Workflow } from './components/Workflow'
 
 function App() {
   
@@ -17,6 +17,7 @@ function App() {
 
      <Hero />
      <Feature />
+     <Workflow />
      </div>
     </>
   )
