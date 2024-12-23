@@ -21,9 +21,9 @@ export const Hero = () => {
     </a>
    </div>
    <div className='flex mt-10 justify-center'>
-    <video autoPlay loop muted className='rounded-lg w-1/2 border-violet-900 shadow-violet-700 mx-2 my-4'><source src={video1} />Your Browser doesnt support the video</video>
+    <video autoPlay loop muted className='rounded-lg w-1/2 border border-violet-900 shadow-violet-700 mx-2 my-4'><source src={video1} />Your Browser doesnt support the video</video>
    
-    <video autoPlay loop muted className='rounded-lg w-1/2 border-violet-900 shadow-violet-700 mx-2 my-4'><source src={video2} />Your Browser doesnt support the video</video>
+    <video autoPlay loop muted className='rounded-lg w-1/2 border border-violet-900 shadow-violet-700 mx-2 my-4'><source src={video2} />Your Browser doesnt support the video</video>
    </div>
     </div>
   )
